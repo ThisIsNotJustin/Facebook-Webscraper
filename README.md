@@ -12,10 +12,14 @@ SELENIUM (make sure to have the chrome webdriver installed and provide the path 
 A Facebook account with access to the group you want to monitor
 
 Usage:
+
 Fill in your Facebook account credentials in the username.send_keys("") and password.send_keys("") lines
+
 Fill in your Twilio account credentials and phone number in the following lines: 
 account_sid = '', auth_token = '', from_='', and to=''
+
 Fill in the path to your chrome webdriver in the service = Service('') line
+
 Fill in the URL of the Facebook group you want to monitor in the driver.get("") line (currently this is the Asoro's Goldens group
 
 Run the script
