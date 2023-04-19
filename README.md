@@ -4,11 +4,12 @@ This Python script uses Selenium to monitor a specific Facebook group, Asoro's G
 ![](https://github.com/ThisIsNotJustin/Facebook-Webscraper/blob/main/AsoroLogo.png)
 
 Requirements:
-twilio (make sure to provide your own account_sid, auth_token, and phone numbers)
 
-selenium (make sure to have the chrome webdriver installed and provide the path to the executable in the service variable)
+TWILIO (make sure to provide your own account_sid, auth_token, and phone numbers)
 
-a Facebook account with access to the group you want to monitor
+SELENIUM (make sure to have the chrome webdriver installed and provide the path to the executable in the service variable)
+
+A Facebook account with access to the group you want to monitor
 
 Usage:
 Fill in your Facebook account credentials in the username.send_keys("") and password.send_keys("") lines
