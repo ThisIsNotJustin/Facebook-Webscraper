@@ -3,7 +3,9 @@ This Python script uses Selenium to monitor a specific Facebook group, Asoro's G
 
 ![](https://github.com/ThisIsNotJustin/Facebook-Webscraper/blob/main/AsoroLogo.png)
 
-Requirements:
+
+Requirements
+------------------------------
 
 TWILIO (make sure to provide your own account_sid, auth_token, and phone numbers)
 
@@ -11,7 +13,9 @@ SELENIUM (make sure to have the chrome webdriver installed and provide the path 
 
 A Facebook account with access to the group you want to monitor
 
-Usage:
+
+Usage
+------------------------------
 
 Fill in your Facebook account credentials in the username.send_keys("") and password.send_keys("") lines
 
@@ -30,4 +34,6 @@ Wait for the script to find any posts with the specified keywords (currently "pu
 
 ![](https://github.com/ThisIsNotJustin/Facebook-Webscraper/blob/main/twilio.jpeg)
 
+
 Note: The script waits for 30 seconds after logging in to give time to approve the initial login and refreshes the page every 5 minutes to check for new posts. You can adjust the sleep time and refresh rate to fit your needs.
+------------------------------
